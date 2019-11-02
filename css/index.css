@@ -55,7 +55,22 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+a{
+    color: black;
+}
+nav{
+    text-align: center;
+    word-spacing: 65px;
+    margin-top: 18px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.top-image{
+    margin-top: 20px;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -83,6 +98,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+
 }
 
 .middle-content {
@@ -100,12 +116,113 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+}
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
@@ -143,4 +260,56 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*------------- about css code starts here ----------------- */
+.about-top-image{
+    margin-top: 20px;
+    
+}
+.about-top-content{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+.first-box{
+    display:inline-block;
+	width:45%;
+    margin:0 1.5%;
+    
+    border-bottom: 1px dashed black;
+}
+.second-box{
+    display:inline-block;
+	width:45%;
+    margin:0 1.5%;
+    
+    border-bottom: 1px dashed black;
+}
+.third-box{
+    display:inline-block;
+	width:45%;
+    margin:0 1.5%;
+    border-bottom: 1px dashed black;
+}
+.fourth-box{
+    display:inline-block;
+	width:45%;
+    margin:0 1.5%; 
+    border-bottom: 1px dashed black;
+}
+.body-top{
+    display: flex;
+	justify-content: space-evenly;
+    margin-top: 40px;
+   
+}
+.body-bottom{
+    display: flex;
+	justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+.page-bottom{
+    margin-top: 30px;
+    margin-left: 30px
 }
