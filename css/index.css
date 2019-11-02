@@ -63,13 +63,13 @@ nav{
     word-spacing: 65px;
     margin-top: 18px;
 }
-.header{
+header{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .top-image{
-    padding: 20px;
+    margin-top: 20px;
 }
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -262,8 +262,8 @@ footer nav a {
     text-decoration: none;
 }
 /*------------- about css code starts here ----------------- */
-.about-top-imgae{
-    padding: 20px;
+.about-top-image{
+    margin-top: 20px;
     
 }
 .about-top-content{
@@ -275,7 +275,7 @@ footer nav a {
     display:inline-block;
 	width:45%;
     margin:0 1.5%;
-    margin-bottom: 20px;
+    
     border-bottom: 1px dashed black;
 }
 .second-box{
@@ -289,14 +289,12 @@ footer nav a {
     display:inline-block;
 	width:45%;
     margin:0 1.5%;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 .fourth-box{
     display:inline-block;
 	width:45%;
-    margin:0 1.5%;
-    
+    margin:0 1.5%; 
     border-bottom: 1px dashed black;
 }
 .body-top{
